@@ -15,7 +15,7 @@ export function Footer() {
               鋒維科技
             </Link>
             <p className="text-sm text-secondary-foreground/80 mb-4">
-              專業的AI與科技顧問公司，致力於為企業提供創新的數位解決方案
+              專業AI及科技顧問公司，致力為企業提供創新的數碼方案。
             </p>
             <div className="flex gap-3">
               <a
@@ -56,17 +56,17 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/services" className="text-secondary-foreground/80 hover:text-accent transition-colors">
-                  服務項目
+                  服務範疇
                 </Link>
               </li>
               <li>
                 <Link href="/cases" className="text-secondary-foreground/80 hover:text-accent transition-colors">
-                  成功案例
+                  成功個案
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-secondary-foreground/80 hover:text-accent transition-colors">
-                  技術部落格
+                  技術博客
                 </Link>
               </li>
             </ul>
@@ -76,16 +76,16 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">主要服務</h3>
             <ul className="space-y-2 text-sm">
-              <li className="text-secondary-foreground/80">AI智能解決方案</li>
-              <li className="text-secondary-foreground/80">客製化軟體開發</li>
+              <li className="text-secondary-foreground/80">AI智能方案</li>
+              <li className="text-secondary-foreground/80">度身訂造軟件開發</li>
               <li className="text-secondary-foreground/80">雲端服務整合</li>
-              <li className="text-secondary-foreground/80">數位轉型諮詢</li>
+              <li className="text-secondary-foreground/80">數碼轉型顧問</li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold mb-4">聯絡資訊</h3>
+            <h3 className="font-semibold mb-4">聯絡資料</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 flex-shrink-0 text-accent" />
@@ -93,14 +93,14 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0 text-accent" />
-                <span className="text-secondary-foreground/80">+886-2-1234-5678</span>
+                <span className="text-secondary-foreground/80">+852-2111-5678</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-accent" />
                 <span className="text-secondary-foreground/80">
-                  台北市信義區信義路五段7號
+                  香港中環金融街8號
                   <br />
-                  台北101大樓 35樓
+                  國際金融中心一期35樓
                 </span>
               </li>
             </ul>

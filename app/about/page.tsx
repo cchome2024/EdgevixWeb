@@ -9,7 +9,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-balance">關於鋒維科技</h1>
             <p className="text-xl text-white/90 text-pretty">
-              我們是一支充滿熱情的技術團隊，致力於為企業提供創新的AI與數位解決方案
+              我們是一支充滿熱誠的技術團隊，致力為企業提供創新的AI與數碼方案。
             </p>
           </div>
         </div>
@@ -30,15 +30,15 @@ export default function AboutPage() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-slate-800 p-8 rounded-2xl shadow-lg border border-primary/20">
                 <p className="mb-6 text-slate-300 leading-relaxed">
-                  鋒維科技成立於2020年,是一家專注於AI技術與數位轉型的科技顧問公司。我們相信技術的力量能夠改變企業的運作方式,提升效率並創造更大的價值。
+                  鋒維科技成立於2020年，是一家專注於AI技術與數碼轉型的科技顧問公司。我們深信技術的力量能夠改變企業的營運模式，提升效率並締造更大價值。
                 </p>
                 <p className="mb-6 text-slate-300 leading-relaxed">
-                  我們的團隊由經驗豐富的軟體工程師、AI專家和技術顧問組成,擁有豐富的產業經驗和技術專長。我們不僅提供技術解決方案,更重視與客戶的長期合作關係,成為您值得信賴的技術夥伴。
+                  我們的團隊由經驗豐富的軟件工程師、AI專家及技術顧問組成，擁有深厚的行業經驗與專業知識。我們不只提供技術方案，更重視與客戶建立長期合作關係，成為您值得信賴的技術伙伴。
                 </p>
                 <div className="flex items-center gap-6 pt-4 border-t border-slate-700">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary">100+</div>
-                    <div className="text-sm text-slate-400">成功案例</div>
+                    <div className="text-sm text-slate-400">成功個案</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-accent">5年</div>
@@ -60,7 +60,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-white">我們的核心價值</h2>
-            <p className="text-lg text-slate-300 max-w-2xl mx-auto">以專業、創新與誠信為基礎,為客戶創造最大價值</p>
+            <p className="text-lg text-slate-300 max-w-2xl mx-auto">以專業、創新與誠信為根基，為客戶創造最大價值。</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-slate-700 p-8 rounded-2xl border-2 border-slate-600 hover:border-slate-500 transition-all hover:shadow-xl hover:-translate-y-1">
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 <Target className="h-7 w-7 text-slate-300" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-white">客戶至上</h3>
-              <p className="text-slate-300">以客戶需求為核心,提供最適合的解決方案</p>
+              <p className="text-slate-300">以客戶需求為核心，提供最貼合的解決方案。</p>
             </div>
 
             <div className="bg-slate-700 p-8 rounded-2xl border-2 border-slate-600 hover:border-slate-500 transition-all hover:shadow-xl hover:-translate-y-1">
@@ -76,7 +76,7 @@ export default function AboutPage() {
                 <Rocket className="h-7 w-7 text-slate-300" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-white">持續創新</h3>
-              <p className="text-slate-300">不斷探索新技術,保持技術領先優勢</p>
+              <p className="text-slate-300">不斷探索新技術，保持技術領先優勢。</p>
             </div>
 
             <div className="bg-slate-700 p-8 rounded-2xl border-2 border-slate-600 hover:border-slate-500 transition-all hover:shadow-xl hover:-translate-y-1">
@@ -84,7 +84,7 @@ export default function AboutPage() {
                 <Award className="h-7 w-7 text-slate-300" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-white">專業品質</h3>
-              <p className="text-slate-300">堅持高標準的技術品質與服務水準</p>
+              <p className="text-slate-300">堅持卓越的技術質素與服務承諾。</p>
             </div>
 
             <div className="bg-slate-700 p-8 rounded-2xl border-2 border-slate-600 hover:border-slate-500 transition-all hover:shadow-xl hover:-translate-y-1">
@@ -92,7 +92,7 @@ export default function AboutPage() {
                 <Users className="h-7 w-7 text-slate-300" />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-white">團隊合作</h3>
-              <p className="text-slate-300">重視團隊協作,發揮集體智慧</p>
+              <p className="text-slate-300">重視團隊協作，匯聚集體智慧。</p>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
             </div>
             <h2 className="text-3xl font-bold mb-4 text-white">專業團隊</h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              我們的團隊由各領域的專家組成,為您提供全方位的技術支援
+              我們的團隊由各領域的專家組成，為您提供全方位的技術支援。
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white text-center">李明哲</h3>
               <p className="text-primary font-medium mb-3 text-center">技術總監</p>
-              <p className="text-sm text-slate-300 text-center leading-relaxed">15年軟體開發經驗,專精於AI與雲端架構</p>
+              <p className="text-sm text-slate-300 text-center leading-relaxed">15年軟件開發經驗，擅長AI與雲端架構設計。</p>
             </div>
 
             <div className="bg-slate-800 p-8 rounded-2xl shadow-lg border border-slate-700 hover:shadow-xl transition-all hover:-translate-y-2">
@@ -132,16 +132,16 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white text-center">陳雅婷</h3>
               <p className="text-accent font-medium mb-3 text-center">AI研發主管</p>
-              <p className="text-sm text-slate-300 text-center leading-relaxed">機器學習專家,擁有多項AI專利</p>
+              <p className="text-sm text-slate-300 text-center leading-relaxed">機器學習專家，擁有多項AI專利成果。</p>
             </div>
 
             <div className="bg-slate-800 p-8 rounded-2xl shadow-lg border border-slate-700 hover:shadow-xl transition-all hover:-translate-y-2">
               <div className="w-32 h-32 bg-slate-700 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl ring-4 ring-slate-600/30">
                 <span className="text-5xl text-slate-300 font-bold">王</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-white text-center">王志強</h3>
-              <p className="text-secondary font-medium mb-3 text-center">專案經理</p>
-              <p className="text-sm text-slate-300 text-center leading-relaxed">豐富的專案管理經驗,確保專案順利交付</p>
+              <h3 className="text-xl font-semibold mb-2 text-white text-center">王志宏</h3>
+              <p className="text-secondary font-medium mb-3 text-center">項目經理</p>
+              <p className="text-sm text-slate-300 text-center leading-relaxed">豐富的項目管理經驗，確保項目準時交付。</p>
             </div>
           </div>
         </div>
