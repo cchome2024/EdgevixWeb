@@ -6,20 +6,23 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="hero-gradient relative min-h-[600px] flex items-center justify-center text-white overflow-hidden">
+      <section className="hero-gradient relative min-h-[620px] flex items-center justify-center text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/abstract-digital-pattern.png')] opacity-10 bg-cover bg-center" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
-              引領企業數碼轉型
+              引領數碼轉型
               <br />
-              共創AI智能未來
+              共創智能未來
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white/90 text-pretty">
-              鋒維科技提供專業AI顧問、軟件開發與硬件技術服務，助您在數碼時代脫穎而出。
-            </p>
+
+            <div className="mb-12 space-y-3">
+              <p className="uppercase tracking-[0.6em] text-base md:text-lg text-accent/90 font-extrabold drop-shadow-[0_1px_6px_rgba(0,0,0,0.25)]">
+                EDGE YOUR VISION, EXPAND YOUR WORLD
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground" asChild>
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg shadow-accent/40" asChild>
                 <Link href="/contact">
                   立即聯絡 <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>

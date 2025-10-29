@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import Image from "next/image"
@@ -29,7 +29,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-3 group" aria-label="鋒維科技首頁">
             <span className="relative block h-16 w-[260px]">
               <Image
-                src="/images/logo.png"
+                src="/images/edgevix-logo.svg"
                 alt="Edgevix"
                 fill
                 priority
@@ -107,3 +107,4 @@ export function Navigation() {
     </nav>
   )
 }
+

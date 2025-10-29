@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180">
+  <defs>
+    <style>
+      .brand-text {
+        font-family: "Montserrat", "Segoe UI", sans-serif;
+        font-weight: 700;
+        fill: #1b3f92;
+        letter-spacing: 8px;
+      }
+      .tagline {
+        font-family: "Montserrat", "Segoe UI", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        fill: #4a7bc6;
+        letter-spacing: 3px;
+      }
+    </style>
+  </defs>
+  <rect width="420" height="180" fill="none" />
+  <text class="brand-text" font-size="80" x="20" y="95">EDGE</text>
+
+  <g transform="translate(200 30)">
+    <polygon points="0,0 38,0 19,33" fill="#1b3f92" />
+    <polygon points="19,33 38,0 56,33" fill="#5388d6" />
+    <polygon points="0,0 19,33 -18,33" fill="#356abd" />
+    <polygon points="19,33 0,66 -18,33" fill="#2a58a8" />
+    <polygon points="19,33 38,66 56,33" fill="#356abd" />
+    <polygon points="19,33 38,66 0,66" fill="#f0b444" />
+    <polygon points="19,33 56,33 38,0" fill="#f6c24a" opacity="0.85" />
+    <polygon points="56,33 75,66 38,66" fill="#1b3f92" />
+    <polygon points="38,-18 56,0 75,-18" fill="#f0b444" />
+    <polygon points="75,-18 90,6 60,6" fill="#f6c24a" opacity="0.85" />
+  </g>
+
+  <text class="brand-text" font-size="80" x="305" y="95">IX</text>
+  <text class="tagline" text-anchor="middle" x="210" y="150">
+    EDGE YOUR VISION, EXPAND YOUR WORLD
+  </text>
+</svg>
